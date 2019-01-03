@@ -1,0 +1,281 @@
+body
+{
+    margin: 0;
+    font-family: sans-serif;
+}
+
+.header
+{
+    width: 100%;
+    height: 130px;
+    position: fixed;
+    background-color: white;
+    border-bottom: 3px solid gray;
+}
+
+.header .left-side
+{
+    width: 55%;
+    float: left;
+}
+
+.header .right-side
+{
+    width: 45%;
+    float: right;
+}
+
+.header .left-side .content
+{
+    width: 100%;
+    height: 120px;
+    text-align: center;
+}
+
+.header .left-side .content h1
+{
+    margin: 10px;
+}
+
+.header .left-side .content .navbar
+{
+    width: 95%;
+    height: 50px;
+    background-color: black;
+    margin: auto;
+    text-align: center;
+}
+
+.header .left-side .content .navbar .navbar-content
+{
+    width: 100%;
+    margin: auto;
+}
+
+.header .left-side .content .navbar .navbar-content ul
+{
+    list-style-type: none;
+    color: white;
+}
+
+.header .left-side .content .navbar .navbar-content ul li
+{
+    float: left;
+    margin: 15px 20px 0 20px;
+    font-size: 15x;
+}
+
+.header .left-side .content .navbar .navbar-content ul li:nth-child(6)
+{
+    margin: 5px 0 0 40px;
+    font-size: 13px;
+}
+
+.header .left-side .content .navbar .navbar-content ul li span a
+{
+    text-align: left;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.header .left-side .content .navbar .navbar-content ul li span a:hover
+{
+    border: 0;
+    color: skyblue;
+}
+
+
+.header .left-side .content .navbar .navbar-content ul li a
+{
+    text-transform: uppercase;
+    text-decoration: none;
+    color: white;
+}
+
+.header .left-side .content .navbar .navbar-content ul li a:hover
+{
+    border-top: 1px solid white;
+    border-bottom: 1px solid white;
+}
+
+.header .right-side .buttons
+{
+    float: right;
+    margin: 40px;
+}
+
+.header .right-side .buttons button
+{
+    cursor: pointer;
+    width: 50px;
+    height: 50px;
+    border: 1px solid gray;
+    font-size: 20px;
+    border-radius: 5px;
+    outline: none;
+    margin-left: 10px;
+    background-color: white;
+    color: gray;
+}
+
+.header .right-side .buttons button:hover
+{
+    color: white;
+    background-color: #00BC8A;
+}
+
+/*---------------------------------------*/
+/*body1*/
+
+.container
+{
+    width: 100%;
+    height: 1300px;
+    padding-top: 130px;
+}
+
+.container .body1
+{
+    width: 100%;
+    height: 400px;
+    background-color: blueviolet;
+}
+
+.container .body1 .border-centered
+{
+    height: 160px;
+    margin: 100px 0 100px 0;
+    border: 1px solid darkgray;
+    float: left;
+}
+
+.left-side
+{
+    width: 48%;
+    float: left;
+}
+
+.container .body1 .left-side p
+{   
+    margin: auto;
+    margin-top: 100px; 
+    width: 75%;
+    color: white;
+    font-size: 40px;
+}
+
+.right-side
+{
+    width: 48%;
+    float: right;
+}
+
+.container .body1 .right-side p
+{
+    width: 75%;
+    color: white;
+    font-size: 20px;
+    margin-top: 100px;
+}
+
+button
+{
+    cursor: pointer;
+    width: 170px;
+    height: 50px;
+    border: 0;
+    border-radius: 50px;
+    outline: none;
+}
+
+.container .body1 .right-side button
+{
+    margin-top: 20px;
+    background-color: #080;
+    color: white;
+}
+
+.container .body1 .right-side button:hover
+{
+    background-color: #00BC8A;
+}
+
+/*---------------------*/
+/*body2*/
+
+.container .body2
+{
+    width: 100%;
+    height: 400px;
+    background-color: whitesmoke;
+    margin: 0;
+    padding-top: 50px;
+}
+
+.container .body2 .left-side .content
+{
+    width: 75%;
+    margin: auto;
+}
+
+.container .body2 .left-side .content p
+{
+    line-height: 40px;
+    margin: 30px 0 30px 0;
+    font-size: 20px;
+}
+
+.container .body2 .left-side .content h1
+{
+    margin: 0;
+}
+
+.container .body2 .left-side .content button
+{
+    border: 1px solid gray;
+    background-color: whitesmoke;
+}
+
+.container .body2 .left-side .content button:hover
+{
+    background-color: floralwhite;
+}
+
+.container .body2 .border-centered
+{
+    height: 300px;
+    margin-top: 5px;
+    border: 1px solid gray;
+    float: left;
+}
+
+.container .body2 .right-side #icons
+{
+    font-size: 20px;
+    visibility: hidden;
+}
+
+.container .body2 .right-side #icons span
+{
+    color: black;
+    margin: 10px;
+}
+
+.container .body2 .right-side #icons i
+{
+    color: #00BC8A;
+    margin-bottom: 50px;
+}
+
+/*-------------------*/
+/*footer*/
+
+.footer
+{
+    width: 100%;
+    height: 50px;
+    text-align: center;
+    background-color: gray;
+    color: white;
+    padding-top: 10px;
+}
